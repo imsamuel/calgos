@@ -14,7 +14,7 @@ int main(void) {
     return 0;
 }
 
-// Returns the binary representation of a (positive) integer.
+// Return the binary representation of a (positive) integer.
 int binary(int num) {
     int result = 0;
     for (int exponent = 0; num > 0; num /= 2, ++exponent) {
